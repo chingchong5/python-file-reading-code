@@ -1,13 +1,13 @@
-# python-file-reading-code
-# open the input file for reading
+# Python-file-reading-code
+# Open the input file for reading
 with open('input_file.txt', 'r') as input_file:
     # read the data from the input file
     data = input_file.read()
     
-# modify the data
+# Modify the data
 modified_data = data.upper()
 
-# open the output file for writing
+# Open the output file for writing
 with open('output_file.txt', 'w') as output_file:
     # write the modified data to the output file
     output_file.write(modified_data)
